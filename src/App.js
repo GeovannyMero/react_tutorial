@@ -4,6 +4,9 @@ import MyFristComponent from './Components/MyFristComponent';
 import PropsDisplayer from './Components/PropsDisplayer';
 import EventComponent from './/Components/EventComponent';
 import StateComponent from './Components/StateComponent';
+import { FunctionalComponent } from './Components/FuntionalComponent';
+import HooksComponent from './Components/HooksComponent';
+import PhoneNumber from './Components/PhoneNumber';
 
 function App() {
   return (
@@ -15,6 +18,11 @@ function App() {
      <EventComponent></EventComponent>
      <p>State</p>
      <StateComponent></StateComponent>
+     <p>Funtion Component</p>
+     <FunctionalComponent name="Geo"></FunctionalComponent>
+     <p>Hooks</p>
+     <HooksComponent></HooksComponent>
+     <PhoneNumber></PhoneNumber>
     </div>
   );
 }
